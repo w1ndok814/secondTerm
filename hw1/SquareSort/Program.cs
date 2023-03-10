@@ -1,4 +1,6 @@
-﻿using System;
+namespace SquareSort;
+
+using System;
 
 class Square_sort
 {
