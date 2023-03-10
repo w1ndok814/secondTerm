@@ -24,7 +24,9 @@ class Square_sort
             for (int j = 0; j < arr.Length - i; j++)
             {
                 if (arr[j] > arr[j + 1])
+                {
                     Swap(ref arr[j], ref arr[j + 1]);
+                }
             }
         }
         return arr;
